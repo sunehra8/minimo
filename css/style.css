@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+.logo{
+    width: 28%;
+    float: left;
+
+}
+.menu{
+    float: right;
+    width: 50%;
+    overflow: hidden;
+
+}
+.menu ul{
+    list-style: none;
+    overflow: hidden;
+    float: right;
+
+}
+.menu ul li{
+    float: left;
+    margin-left: 50px;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.banner{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+
+}
+.banner img{
+    width: 100%;
+}
+
+.photodairy{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.photodairy h5{
+    color: #b4ad9e;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.photodairy h1{
+    color: #626262;
+    font-size: 35px;
+    margin-bottom: 20px;
+
+
+}.photodairy p{
+    color: #626262;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.photodairy a{
+    color: #b4ad9e;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.lifestyle{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lifestyle_item{
+    width: 48%;
+    margin: 50px 0;
+}
+
+.lifestyle_item img{
+    width: 100%;
+}
+
+.lifestyle_item h5{
+    color: #b4ad9e;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin: 30px 0;
+}
+
+.lifestyle_item h1{
+    color: #626262;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.lifestyle_item p{
+    color: #626262;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.newsletter{
+    background-color: #f0f0f0;
+    padding: 70px 0;
+
+}
+
+.news_content{
+    width: 27%;
+    margin: auto;
+    color: #626262;
+
+}
+
+.news_content h1{
+    color: #626262;
+    font-size: 35px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+
+}
+
+.news_content input{
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.loadmore{
+    text-align: center;
+    padding: 100px 0;
+
+}
+.loadmore button{
+    padding: 15px 20px;
+    background: transparent;
+    border: none;
+    border: 1px solid #626262;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #626262;
+}
+
+footer{
+    background-color: #f0f0f0;
+
+}
+.footer_content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+
+
+}
+.terms{
+    width: 30%;
+
+}
+.terms ul{
+    list-style: none;
+    display: flex;
+
+}
+.terms ul li{
+    margin-right: 15px;
+
+}
+.terms ul li a{
+    text-decoration: none;
+    color: #626262;
+    text-transform: capitalize;
+
+}
+
+.social_icon{
+    width: 30%;
+
+}
+.social_icon ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+
+}
+.social_icon ul li{
+    color: #626262;
+    margin-left: 15px;
+
+}
